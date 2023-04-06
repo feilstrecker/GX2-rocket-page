@@ -1,0 +1,559 @@
+/*
+Montserrat
+Sans-serif
+"Montserrat", Sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: rgb(219, 218, 218);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: #F6F6F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navbar-logo-img {
+    width: 135px;
+    height: 40px;
+    top: 20px;
+    left: 120px;
+}
+
+.navbar-container:nth-child(2) {
+    word-spacing: 2.1rem;
+}
+
+.navbar-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #1C1C1D;
+    opacity: 1;
+    text-decoration: none;
+    
+}
+
+.contact-button {
+    background: #10DFC2 0% 0% no-repeat padding-box;
+    border: none;
+    top: 19px;
+    left: 1033px;
+    width: 213px;
+    height: 42px;
+    border-radius: 15px;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FBFBFB;
+    
+}
+
+.home-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+}
+
+.home-logo {
+    width: 66px;
+    height: 19px;
+
+}
+
+.home-h1 {
+    width: 419px;
+    height: 153px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-size: 40px;
+    font: normal normal bold 40px/52px Montserrat;
+    color: white;
+    opacity: 1;
+
+}
+
+.home-paragraph {
+    width: 289px;
+    height: 84px;
+    text-align: left;
+    font: normal normal normal 18px/31px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.home-container:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.home-container:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-rocket {
+    width: 138px;
+    height: 157px;
+    margin-bottom: 4rem;
+}
+
+.logo-rocket-talents {
+    width: 332px;
+    height: 76px;
+}
+
+.about-section {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 65vh;
+    background-position: center;
+}
+
+.about-container:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-h2 {
+    width: 311px;
+    height: 80px;
+    text-align: left;
+    font: normal normal bold 32px/41px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+    opacity: 1;
+}
+
+.about-student-img {
+    width: 253px;
+    height: 306px;
+    opacity: 1;
+}
+
+.about-paragraph {
+    width: 391px;
+    height: 19px;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+}
+
+.about-cyan-paragraph {
+    margin-top: 3.5rem;
+    width: 318px;
+    height: 19px;
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #0EAFAC;
+    opacity: 1;
+}
+
+.howworks-section {
+    background-color: #F6F6F6;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+    
+}
+
+.howworks-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.howworks-h2 {
+    width: 256px;
+    height: 39px;
+    text-align: left;
+    font: normal normal bold 32px/41px Montserrat;
+    letter-spacing: 0px;
+    color: #0EAFAC;
+    opacity: 1;
+}
+
+.howworks-subtitle {
+    width: 559px;
+    height: 19px;
+    text-align: center;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+}
+
+.howworks-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.howworks-content {
+    flex-direction: column;
+    width: 262px;
+    height: 262px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.howworks-content-icon {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.howworks-h4 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+}
+
+.howworks-paragraph {
+    padding: 1rem;
+    width: 218px;
+    height: 111px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+}
+
+.requirements-section {
+    background-color: white;
+    width: 100%;
+    height: 130vh;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.requirements-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.requirements-container:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.requirements-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.requirements-title {
+    height: 39px;
+    text-align: left;
+    font: normal normal bold 32px/41px Montserrat;
+    letter-spacing: 0px;
+    color: #0EAFAC;
+    opacity: 1;
+}
+
+.requirements-subtitle {
+    width: 267px;
+    height: 19px;
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+    opacity: 1;
+}
+
+.requirements-ul {
+    width: 471px;
+    height: 111px;
+    text-align: left;
+    list-style: none;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+    opacity: 1;
+}
+
+.details-ul {
+    width: 385px;
+    height: 134px;
+    text-align: left;
+    list-style: none;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #032624;
+    opacity: 1;  
+}
+
+.email-form-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    height: 215px;
+    width: 100%;
+    background: #19DBD1 0% 0% no-repeat padding-box;
+
+}
+
+.email-form-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.email-form-h2 {
+    text-align: left;
+    font: normal normal bold 32px/41px Montserrat;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.email-form-paragraph {
+    width: 480px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.email-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.email-form-label {
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.email-form-input {
+    width: 300px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+}
+
+.email-form-submit {
+    width: 100px;
+    height: 35px;
+    background: #FFB900 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    text-align: center;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background: #04254C;
+}
+
+.footer-logo-img {
+    width: 135px;
+    height: 40px;
+}
+
+.slogan {
+    width: 351px;
+    height: 42px;
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.footer-paragraph-about-gx2 {
+    width: 428px;
+    height: 65px;
+    text-align: left;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.talk-with-us-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 181px;
+    height: 35px;
+    background: #FFB900 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.footer-phone-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-h4 {
+    width: 109px;
+    height: 29px;
+    text-align: left;
+    font: normal normal 600 24px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF; 
+}
+
+.footer-ul {
+    display: flex;
+    width: 131px;
+    height: 317px;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.footer-ul li {
+    width: 131px;
+    height: 19px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-container:nth-child(2) {
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 412px;
+    height: 5rem;
+}
+
+.icon-location-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 5rem;
+}
+
+.footer-h6 {
+    margin-bottom: 1rem;
+    width: 180px;
+    height: 19px;
+    text-align: left;
+    font: normal normal 600 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.footer-paragraph-location {
+    width: 294px;
+    height: 44px;
+    text-align: left;
+    font: normal normal normal 16px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1179px) {
+    .howworks-section {
+        height: 50rem;
+    }
+
+    .howworks-container {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .email-form-section {
+        height: 20rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .email-form-title-container {
+        align-items: center;
+    }
+
+    .email-form-container {
+        align-items: center;
+    }
+}
+
+@media (max-width: 986px) {
+    footer {
+        flex-wrap: wrap;
+        height: 55rem;
+    }
+}
