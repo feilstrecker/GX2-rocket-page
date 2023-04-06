@@ -682,20 +682,20 @@ footer {
 
 @media (max-width:723px) {
     .requirements-section {
-        height: 90rem;
-        gap: 4rem;
+        height: 80rem;
+        padding-bottom: 3rem;
+        gap: 3rem;
     }
 
     .requirements-title {
         text-align: center;
     }
     .requirements-subtitle {
+        height: 1rem;
         margin: 0 auto;
         text-align: center;
     }
-    .requirements-subtitle:nth-child(2) {
-        margin: 2rem;
-    }
+
     .requirements-ul {
         margin: 0 auto;
         text-align: center;
@@ -721,6 +721,84 @@ footer {
 
     .howworks-subtitle {
         width: 100vw;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width:558px) {
+    footer {
+        height: 75rem;
+        gap: 2rem;
+        row-gap: 0;
+    }
+
+    .footer-container {
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .location-container {
+        width: 100vw;
+    }
+
+    .slogan {
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer-paragraph-about-gx2 {
+        text-align: center;
+        width: 100vw;
+        margin-bottom: 2rem;
+    }
+
+    .footer-ul {
+        text-align: center;
+    }
+
+    .footer-paragraph-location {
+        width: 60vw;
+        font-size: 10px;
+    }
+
+    .icon-location-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        border-radius: 2rem;
+    }
+
+}
+
+
+@media (max-width: 478px) {
+    .email-form-h2 {
+        font-size: 30px;
+        width: 100vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .email-form-paragraph {
+        width: 100vw;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .email-form-input {
+        width: 95vw;
+    }
+}
+
+
+@media (max-width: 365px) {
+    .margin-wrap {
+        margin-top: -1rem;
         margin-bottom: 2rem;
     }
 }
