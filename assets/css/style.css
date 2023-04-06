@@ -13,6 +13,39 @@ body {
     background: rgb(219, 218, 218);
 }
 
+.open-close-mobile-navbar {
+    display: none;
+    position: fixed;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-navbar-bar1, .mobile-navbar-bar2, .mobile-navbar-bar3 {
+    display: flex;
+    position: fixed;
+    background-color: black;
+    right: 0.5rem;
+    top: 0.5rem;
+    height: 5px;
+    width: 35px;
+    transition: ease;
+    transition-duration: 1s;
+}
+
+.mobile-navbar-bar1 {
+    top: 0.8rem;
+}
+.mobile-navbar-bar2 {
+    top: 1.5rem;
+}
+.mobile-navbar-bar3 {
+    top: 2.2rem;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -64,12 +97,13 @@ body {
 
 .home-section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 80vh;
-    background-position: center;
+    height: 31rem;
+    
 }
 
 .home-logo {
@@ -181,6 +215,7 @@ body {
     background-color: #F6F6F6;
     height: 35rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     gap: 6rem;
@@ -277,6 +312,7 @@ body {
 
 .requirements-container:nth-child(2) {
     flex-direction: row-reverse;
+    gap: 2.51rem;
 }
 
 .requirements-content {
@@ -549,11 +585,142 @@ footer {
     .email-form-container {
         align-items: center;
     }
+
+    .requirements-section {
+        height: 50rem;
+    }
 }
 
 @media (max-width: 986px) {
     footer {
         flex-wrap: wrap;
         height: 55rem;
+    }
+}
+
+@media (max-width:805px) {
+    .open-close-mobile-navbar {
+        display: flex;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        right: -50%;
+        transition: ease;
+        transition-duration: 1s;
+    }
+
+    .navbar-container:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contact-button {
+        width: 40vw;
+    }
+
+    .home-section {
+        height: 30rem;
+        justify-content: center;
+    }
+
+    .home-h1 {
+        font-size: 25px;
+        width: 260px;
+    }
+
+    .logo-rocket {
+        width: 69px;
+        height: 78.5px;
+        margin-bottom: 1rem;
+    }
+    
+    .logo-rocket-talents {
+        width: 166px;
+        height: 38px;
+    }
+
+    .about-section {
+        align-items: center;
+        height: 40rem;
+    }
+    
+    .about-h2 {
+        margin: 0 auto;
+        width: 100vw;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .about-paragraph {
+        width: 100vw;
+        font-size: 15px;
+        word-wrap: break-word;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .about-cyan-paragraph {
+        width: 100vw;
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .howworks-section {
+        flex-direction: row;
+        gap: 1rem;
+    } 
+
+    
+}
+
+@media (max-width:723px) {
+    .requirements-section {
+        height: 90rem;
+        gap: 4rem;
+    }
+
+    .requirements-title {
+        text-align: center;
+    }
+    .requirements-subtitle {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .requirements-subtitle:nth-child(2) {
+        margin: 2rem;
+    }
+    .requirements-ul {
+        margin: 0 auto;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .details-ul {
+        margin: 0 auto;
+        text-align: center;
+        width: 100vw;
+    }
+}
+
+@media (max-width:599px) {
+    .howworks-section {
+        height: 85rem;
+    }
+
+    .howworks-h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .howworks-subtitle {
+        width: 100vw;
+        margin-bottom: 2rem;
     }
 }
